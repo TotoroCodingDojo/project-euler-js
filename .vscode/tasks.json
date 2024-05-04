@@ -1,0 +1,13 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run with node.js",
+        "type": "shell",
+        "command": "node ${file}",
+        "group": {
+          "kind": "build"
+        },
+      },
+    ]
+  }
